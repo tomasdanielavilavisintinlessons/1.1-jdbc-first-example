@@ -15,6 +15,7 @@ public class App
 {
     public static void main( String[] args )
     {
+    	// Datasource
     	MysqlDataSource myds = new MysqlDataSource();
     	myds.setUser("root");
     	myds.setPassword("root");
